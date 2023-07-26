@@ -21,29 +21,17 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box; /* Hack para modelo caja*/
-  scroll-snap-type: y mandatory;
+  /* scroll-snap-type: y mandatory; */
 }
 
 /** Scroll Snap**/
-.barra-navegacion,
+/* .barra-navegacion,
 .servicios,
 .formulario,
 .footer {
   scroll-snap-align: center;
   scroll-snap-stop: always;
-}
-
-@media (min-width: 768px) {
-  .barra-navegacion,
-  .hero,
-  .servicios-scroll,
-  .servicios,
-  .formulario,
-  .footer {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-  }
-}
+} */
 
 body {
   font-size: 16px; /* 1rem = 10px */
